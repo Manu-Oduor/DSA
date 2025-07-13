@@ -1,3 +1,4 @@
+# Iterative Approach
 def factorial (num):
     res= 1
     for i in range(2,num+1):
@@ -8,7 +9,7 @@ def factorial (num):
 num =5
 print("the factorial for", num ,"is",factorial(5))
 
-
+# Recursive Approach
 def factorial(n):
     if n==0 or n==1:
         return 1
